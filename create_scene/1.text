@@ -1,0 +1,14 @@
+Create Scene :-
+
+1. create scene,camera and renderer
+ =>
+    PerspectiveCamera =>
+        fov
+        aspect ratio
+        near plane 
+        far plane
+2.create geometry,material and camera position
+3.you can add some animation if you want in animate function
+
+GIST LINK :-
+https://gist.github.com/KartikRane05/2c9c3c3151995d07d81b98b3b66b07a1
