@@ -1,0 +1,7 @@
+mesh.position.axis name =>
+x => right and left
+y => top and botton
+z => outword and inword
+
+gist link :-
+https://gist.github.com/KartikRane05/15822d28f21242e96c62e9bfeb6d5b16
