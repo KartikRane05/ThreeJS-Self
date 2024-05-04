@@ -1,14 +1,9 @@
 Create Scene :-
 
-1. create scene,camera and renderer
- =>
-    PerspectiveCamera =>
-        fov
-        aspect ratio
-        near plane 
-        far plane
-2.create geometry,material and camera position
-3.you can add some animation if you want in animate function
+1.create scene
+2.create object => geometry,material => mesh thing things =>scene add
+3.setup camera => Perspective Camera => fov ,aspect ratio => camera postion => scene add
+4. renderer => webglrenderer (canvas) => renderer.setsize => renderer.render(scene,camera) 
 
 GIST LINK :-
 https://gist.github.com/KartikRane05/2c9c3c3151995d07d81b98b3b66b07a1
