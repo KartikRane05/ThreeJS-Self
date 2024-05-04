@@ -1,0 +1,23 @@
+Animations =>
+window.requestanimationFrame(functiontocall)
+elapsed time logic =>
+like a stopwatch => start the timer from zero
+
+ex :-    cube1.rotation.y = elapsedtime * Math.PI * 2; (LOGIC => 1 REVOLUTION PER SECOND)
+	 cube1.position.x = Math.sin(elapsedtime * Math.PI * 2) (LOGIC => SIN GRAPH NATURE FOLLOW)
+	 cube1.position.x = Math.cos(elapsedtime * Math.PI * 2) (LOGIC => COS GRAPH NATURE FOLLOW)
+
+	TO ROTATE IN IN CIRCLE
+ 
+	cube1.position.x = Math.sin(elapsedtime * Math.PI * 2)
+    	cube1.position.y = Math.cos(elapsedtime * Math.PI * 2)
+
+Gist Link :-
+https://gist.github.com/KartikRane05/6774fdf8b456a9ce73293fdecba49afd
+
+Animation-2 :-
+npm install gsap
+1. understand about gsap.to(object,{params})
+
+Gist Link :-
+https://gist.github.com/KartikRane05/cd124cc5fca6c3cc3b6346dcfdf16d22
