@@ -1,0 +1,30 @@
+Transform Objects :-
+POSITION => 
+mesh.position.length 
+mesh.position.distanceto(camera.position)
+mesh.position.normalize() => this will reduce the length to 1 => go and see mesh.position.length before and after
+mesh.position.set(x,y,z);
+
+AXES HELPER =>
+it is an object so it has to be add in scene
+it is simply the axis got created
+(const axeshelper = new THREE.AxisHelper(length))
+
+
+SCALE =>
+change the length of the object in x y and z direction
+mesh.scale.set(x,y,z);
+
+
+ROTATION OBJECTS :-
+mesh.rotation.axis = value 
+pi => for half rotation (180degree) 
+
+Gist Link :-
+https://gist.github.com/KartikRane05/840f9b19d446f845f16416c15882f96d
+
+concept of group :- 
+the effect will be applied to group 
+
+Gist Link :-
+https://gist.github.com/KartikRane05/85e091ca296866c7c03b3630a7cf8a35
